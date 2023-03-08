@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest --verbose",
     "start": "node ./server.js",
-    "server": "nodemon ./server.js"
+    "server": "nodemon node ./server.js"
   },
   "author": "",
   "license": "ISC",
