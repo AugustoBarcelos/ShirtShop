@@ -22,12 +22,9 @@
     "server": "^1.0.38",
     "web-vitals": "^1.1.2"
   },
-  "engines": {
-    "node": "16.18.1"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
